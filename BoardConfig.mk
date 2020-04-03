@@ -76,10 +76,8 @@ RECOVERY_SDCARD_ON_DATA := true
 TARGET_RECOVERY_FSTAB := device/essential/mata/twrp/twrp.fstab
 TARGET_RECOVERY_QCOM_RTC_FIX := true
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
-TARGET_USES_LOGD := true
 
 # TWRP specific build flags
-#TWRP_INCLUDE_LOGCAT := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_RECOVERY_ADDITIONAL_RELINK_FILES := out/target/product/mata/system/lib64/android.hardware.boot@1.0.so out/target/product/mata/vendor/bin/hw/android.hardware.boot@1.0-service
 TW_NO_SCREEN_BLANK := true
@@ -87,7 +85,6 @@ BOARD_HAS_NO_REAL_SDCARD := true
 TW_EXCLUDE_DEFAULT_USB_INIT := true
 TW_EXCLUDE_SUPERSU := true
 TW_DEFAULT_BRIGHTNESS := 149
-TW_INCLUDE_CRYPTO := true
 TW_MAX_BRIGHTNESS := 255
 TW_SCREEN_BLANK_ON_BOOT := true
 #TW_X_OFFSET := 128

@@ -37,9 +37,6 @@ TARGET_BOARD_PLATFORM := msm8998
 TARGET_BOARD_PLATFORM_GPU := qcom-adreno540
 TARGET_HAS_NO_SELECT_BUTTON := true
 
-TARGET_USES_64_BIT_BINDER := true
-
-
 # Kernel
 BOARD_KERNEL_CMDLINE := androidboot.hardware=mata user_debug=31 ehci-hcd.park=3
 BOARD_KERNEL_CMDLINE += lpm_levels.sleep_disabled=1 service_locator.enable=1

@@ -1,3 +1,6 @@
+# Inherit device configuration
+$(call inherit-product, device/essential/mata/device.mk)
+
 # Inherit some common omni stuff.
 #$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, vendor/omni/config/common.mk)

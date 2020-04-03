@@ -71,7 +71,6 @@ TARGET_USERIMAGES_USE_F2FS := true
 
 
 # Recovery
-TARGET_RECOVERY_UI_MARGIN_WIDTH := 64
 TARGET_RECOVERY_DEVICE_MODULES += android.hardware.boot@1.0-service
 RECOVERY_SDCARD_ON_DATA := true
 TARGET_RECOVERY_FSTAB := device/essential/mata/twrp/twrp.fstab

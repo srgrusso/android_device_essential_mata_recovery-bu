@@ -78,12 +78,6 @@ TARGET_RECOVERY_QCOM_RTC_FIX := true
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 TARGET_USES_LOGD := true
 
-# Root
-BOARD_ROOT_EXTRA_FOLDERS := bt_firmware dsp firmware persist
-
-# Timeservice
-BOARD_USES_QC_TIME_SERVICES := true
-
 # TWRP specific build flags
 #TWRP_INCLUDE_LOGCAT := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
